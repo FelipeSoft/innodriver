@@ -1,0 +1,19 @@
+MailTrigger
+
+[Entities]
+
+- Trigger
+Responsable for emit a Event entity behind a scenario that can be actived.
+
+- Event
+Can be attached by a Trigger, but it's independent, and most useful for workflows, user actions and behaviors, resulting in e-mails being sent.
+
+- Mail
+A email Template that can be modified and personalized by micro-saas users.
+
+[Essentials]
+
+- A user should have a API Key for use (can be revoked, because it will be have a limited duration).
+
+- The MailTrigger can search by low prices and offers in other platforms, and alert users and collaborators, helping them making new prices or offers too. Therefore, the API user can create na Event destinated for this.
+

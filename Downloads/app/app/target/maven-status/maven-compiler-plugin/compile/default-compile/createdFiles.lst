@@ -1,0 +1,4 @@
+net\felipe\app\AppApplication.class
+net\felipe\app\controller\TaskController.class
+net\felipe\app\model\Task.class
+net\felipe\app\repository\TaskRepository.class
